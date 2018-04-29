@@ -52,6 +52,6 @@ while player_wins < winning_score and computer_wins < winning_score:
 if player_wins > computer_wins:
 	print("Congrats, you won!")
 elif player_wins == computer_wins:
-	print("It's a tie!")
+	print("It's a tie!") #Added to prevent the computer from "winning" if the player quit
 else:
 	print("Oh no, the computer won!")
